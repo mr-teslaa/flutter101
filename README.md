@@ -1,3 +1,3 @@
-# Lesson 0
+# Chapter 0
 
 **First Page & Scaffold**
