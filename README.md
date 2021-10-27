@@ -1,3 +1,3 @@
-# Chapter 0
+# Chapter 1
 
 **First Page & Scaffold**
