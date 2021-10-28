@@ -1,3 +1,4 @@
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -16,33 +17,40 @@ class HomePage extends StatelessWidget {
         title: const Text("Flutter101"),
       ),
 
-      body: Center(
-        child: Container(
-          // padding: const EdgeInsets.all(20),
-          alignment: Alignment.center, 
-          // color: Colors.teal,
-          height: 100,
-          width: 100,
-          child: const Text(
-            'I am a box', 
-            textAlign: TextAlign.center,
-            style: TextStyle(
-              color: Colors.white,
-              fontWeight: FontWeight.bold,
-              fontSize: 30, 
-            )
+      body: Padding(
+        padding: const EdgeInsets.all(20),
+        child: Align(
+          alignment: Alignment.bottomCenter,
+          child: Container(
+            color: Colors.black,
+            width: 350,
+            height: 500,
+            child: Padding(
+              padding: const EdgeInsets.all(10),
+              child: Row(
+                mainAxisAlignment: MainAxisAlignment.start,
+                crossAxisAlignment: CrossAxisAlignment.center,
+                children: [
+                  Container(
+                    height: 100,
+                    width: 100,
+                    color: Colors.green,
+                  ),
+                  Container(
+                    height: 100,
+                    width: 100,
+                    color: Colors.yellow,
+                  ),
+                  Container(
+                    height: 100,
+                    width: 100,
+                    color: Colors.red,
+                  )
+                ],
+              ),
+            ),
           ),
-          decoration: BoxDecoration(
-            borderRadius: BorderRadius.circular(10),
-            boxShadow: const [BoxShadow(
-              color: Colors.blueGrey,
-              blurRadius: 5,
-              offset: Offset(2, 10)
-            )],
-            color: Colors.teal,
-            gradient: const LinearGradient(colors: [Colors.pink, Colors.red])
-          ),
-        )
+        ),
       )
     );
   }
