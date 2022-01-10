@@ -1,9 +1,7 @@
-# Start writing my own code for flutter app.
-
 ### Goals of this lesson
 
--   Material Widget
-    -   It's a UI toolkit from google which are using to build flutter application.
-    -   in our case we are passing `MaterialApp()` as our root widget. And it looks terrible.
+-   Scaffold Widget
+    -   `Scaffold()` widget allows us to create basic layout more beautifully like _AppBar_, _FloatActionButton_ and so forth.
+    -   anything we declaring in `Center()` widget will be a `child: ....` widget.
 
 # to be continued in the next chapter
