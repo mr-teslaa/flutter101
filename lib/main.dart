@@ -10,13 +10,13 @@ void main() => runApp(MaterialApp(
         ),
         body: Center(
           child: Text(
-            ' yeah',
+            'It\'s a custom font.',
             style: TextStyle(
               fontSize: 20,
               color: Colors.grey[600],
               fontWeight: FontWeight.bold,
               letterSpacing: 5,
-              fontFamily: 'LuxuriousRoman'
+              fontFamily: 'LuxuriousRoman',
             ),
           ),
         ),
