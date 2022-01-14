@@ -20,16 +20,9 @@ class Home extends StatelessWidget {
           backgroundColor: Colors.red[600],
         ),
         body: Center(
-          child: Text(
-            'It\'s a custom font.',
-            style: TextStyle(
-              fontSize: 20,
-              color: Colors.grey[600],
-              fontWeight: FontWeight.bold,
-              letterSpacing: 5,
-              fontFamily: 'LuxuriousRoman',
-            ),
-          ),
+          child: Image.asset('assets/coffee.jpg')
+          // for accessing network image 
+          // child: Image.network('imageURL')
         ),
         floatingActionButton: FloatingActionButton(
           onPressed: () {},
